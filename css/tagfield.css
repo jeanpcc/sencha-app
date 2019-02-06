@@ -1,0 +1,51 @@
+.tag-field {
+    margin-right : 10px;
+}
+
+.tag-field .x-form-field:before {
+    font-family  : FontAwesome;
+    content      : '\f02c';
+    margin-right : 5px;
+    font-size    : 14px;
+    float        : left;
+    position     : relative;
+    top          : 3px;
+    color        : gray;
+}
+
+.tag-field input {
+    width : 50px;
+}
+
+.tag-field ul {
+    float : left;
+}
+
+.tag-field .x-tagfield-item-text {
+    font-size : 11px;
+}
+
+.tag-field-list li {
+    display     : inline-block;
+    background  : #ececec;
+    padding     : 0 5px 0 3px;
+    margin      : 3px;
+    color       : black;
+    font-size   : 11px;
+    border      : none;
+    line-height : 25px;
+    font-weight : 300;
+}
+
+.tag-field-list li:before {
+    font-family  : FontAwesome;
+    content      : '\f02b';
+    color        : gray;
+    margin-right : 3px;
+}
+
+.tag-field-list li.x-boundlist-item-over,
+.tag-field-list li:hover {
+    background-color : #e4e4e4;
+    border           : none;
+}

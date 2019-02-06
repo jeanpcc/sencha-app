@@ -1,0 +1,203 @@
+.examples-thumb-group {
+    font-size     : 16px;
+    margin        : 0 0 20px 0;
+    clear         : both;
+}
+
+.examples-thumbs {
+    padding : 20px;
+}
+
+.examples-thumb-wrap {
+    display          : inline-block;
+    width            : 128px;
+    background-color : #ffffff;
+    margin-right     : 20px;
+    margin-bottom    : 20px;
+    font-size        : 13px;
+    font-weight      : bold;
+    overflow         : hidden;
+    cursor           : pointer;
+    position         : relative;
+    top              : 0;
+    left             : 0;
+}
+
+@media (max-width: 470px) {
+    .examples-thumb-wrap {
+        width: 140px;
+    }
+}
+
+.examples-thumb-wrap a {
+    width : inherit;
+}
+.examples-thumb-wrap a:hover {
+    text-decoration : none;
+}
+
+.examples-thumb-wrap img {
+    height     : 96px;
+    transition : top 0.3s, all 0.3s;
+    z-index    : 20;
+    filter     : grayscale(60%);
+    opacity    : 0.75;
+    margin     : 0 auto;
+    display    : block;
+}
+
+.examples-thumb-wrap.x-view-item-focused img,
+.examples-thumb-wrap.x-item-selected img,
+.examples-thumb-wrap:hover img {
+    filter  : grayscale(10%);
+    opacity : 1;
+}
+
+.examples-thumb-wrap.x-view-item-focused,
+.examples-thumb-wrap.x-item-selected {
+    outline : none !important;
+}
+
+.examples-thumb-wrap:hover .examples-thumb-label {
+    color : #000;
+}
+
+.examples-thumb-wrap.x-view-item-focused .examples-thumb-label,
+.examples-thumb-wrap.x-item-selected .examples-thumb-label {
+    background : #0066a6;
+    color      : #ffffff;
+}
+
+.examples-thumb-wrap:hover .examples-thumb-ear {
+    border-left-color   : #eee;
+    border-bottom-color : #eee;
+}
+
+.examples-thumb-wrap.x-view-item-focused .examples-thumb-ear,
+.examples-thumb-wrap.x-item-selected .examples-thumb-ear {
+    border-left-color   : #2685bf;
+    border-bottom-color : #2685bf;
+}
+
+.examples-thumb-label {
+    text-overflow : ellipsis;
+    white-space   : nowrap;
+    overflow      : hidden;
+    font-size     : 12px;
+    padding       : 7px;
+    padding-left  : 10px;
+    transition    : all 0.2s;
+    border-bottom : 1px solid #ccc;
+    color         : #444;
+}
+
+/*.examples-thumb-label:before {
+    font-family: FontAwesome;
+    content: '\f111';
+    margin-right: 5px;
+}*/
+
+.examples-thumb-wrap.show-desc img {
+    top : 128px;
+}
+
+.examples-thumb-description {
+    font-weight : 300;
+    font-size   : 11px;
+    position    : absolute;
+    top         : 32px;
+    left        : 0;
+    padding     : 7px 10px 7px 10px;
+}
+
+/*.examples-thumb-external,
+.examples-thumb-tags,
+.examples-thumb-info {
+    position  : absolute;
+    bottom    : 5px;
+    right     : 27px;
+    font-size : 17px;
+    color     : rgba(100, 100, 100, 0.5);
+}*/
+
+/*.examples-thumb-external {
+    position   : absolute;
+    left       : 10px;
+    bottom     : 7px;
+    color      : rgba(100, 100, 100, 0);
+    transition : color 0.2s;
+    font-size  : 24px;
+}*/
+
+/*.examples-thumb-wrap:hover .examples-thumb-external {
+    color : rgba(100, 100, 100, 0.3);
+}*/
+
+/*.examples-thumb-wrap:hover .examples-thumb-external,
+.examples-thumb-tags:hover,
+.examples-thumb-info:hover {
+    color : #646464;
+}*/
+
+/*.examples-thumb-external {
+    right   : auto;
+    left    : 7px;
+    z-index : 31;
+}*/
+
+.examples-thumb-info {
+    right   : 7px;
+    z-index : 30;
+}
+
+.examples-thumb-wrap.show-desc .examples-thumb-info:before {
+    content : '\f057' !important;
+}
+
+.examples-thumb-ear {
+    position            : absolute;
+    top                 : 0;
+    right               : 0;
+    width               : 16px;
+    height              : 16px;
+    background          : #ececec;
+
+    border              : 8px solid transparent;
+    border-bottom-color : #f4f4f4;
+    border-left-color   : #f4f4f4;
+
+    box-shadow          : -1px 1px 5px 0 rgba(100, 100, 100, 0.15);
+    transition          : all 0.2s;
+}
+
+.examples-thumb-ear:hover {
+    border-width : 12px;
+}
+
+.examples-qtip-description {
+    margin-bottom : 5px;
+}
+
+.examples-qtip-tags {
+
+}
+
+.examples-qtip-tag {
+    display     : inline-block;
+    background  : #ececec;
+    padding     : 0 5px 0 3px;
+    margin      : 3px;
+    color       : black;
+    font-size   : 11px;
+    font-weight : 300;
+}
+
+.examples-qtip-tag:before {
+    margin-right : 3px;
+    color        : gray;
+}
+
+.x-tip .fa-external-link {
+    float: left;
+    margin-right: 5px;
+}

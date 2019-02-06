@@ -1,0 +1,146 @@
+/*region Overrides for kitchensink colors*/
+.ks-cmp > .x-panel-header-default .x-tool-img,
+.ks-cmp > .x-panel-header-default-vertical,
+.ks-cmp > .x-panel-header-default {
+    background-color : #0066a6;
+}
+
+.ks-cmp > .x-panel-header {
+    border-color : #0066a6;
+}
+
+.x-title {
+    height : 32px;
+}
+
+.x-window-header .x-title {
+    height: auto;
+}
+
+.example-tree .x-panel-body,
+.example-tree .x-grid-item {
+    background-color : #202020;
+}
+
+.example-tree .x-grid-item-selected {
+    background-color : #ffefbb;
+}
+
+.example-tree .x-grid-item-focused,
+.example-tree .x-grid-item-over,
+.example-tree .x-grid-item-selected {
+    background-color : #303030;
+    border           : none;
+    outline          : none;
+}
+
+.example-tree .x-grid-item-focused .x-grid-cell-inner:before {
+    border : none;
+}
+
+.example-tree .x-tree-elbow-plus,
+.example-tree .x-tree-elbow-end-plus,
+.example-tree .x-grid-tree-node-expanded .x-tree-elbow-plus,
+.example-tree .x-grid-tree-node-expanded .x-tree-elbow-end-plus,
+.example-tree .x-tree-icon-parent-expanded,
+.example-tree .x-tree-icon-parent,
+.example-tree .x-tree-node-text,
+.example-tree .x-tree-icon-leaf {
+    /*color: #acacac;*/
+    color : #f0f0f0;
+}
+
+.example-tree .x-grid-item-selected .x-tree-icon-leaf,
+.example-tree .x-grid-item-selected .x-tree-node-text {
+    color : #ffffff;
+}
+
+.example-tree .x-tree-icon-parent:before {
+    content : '\f07b';
+}
+
+.example-tree .x-tree-icon-parent-expanded:before {
+    content : '\f07c';
+}
+
+.details-panel .x-toolbar-default {
+    background : #303030;
+    border     : none;
+}
+
+.details-panel .x-toolbar-text-default {
+    color : #ffffff;
+}
+
+.details-panel {
+    border : none;
+}
+
+.details-panel .x-panel-body {
+    background-color : #202020;
+    color            : #ffffff;
+    border           : none;
+}
+
+.examples-header .x-form-trigger-wrap-default,
+.details-panel .x-form-trigger-wrap-default {
+    border : none;
+}
+
+.details-combo-list.x-boundlist,
+.tag-field-list.x-boundlist {
+    border     : none;
+    border-top : 1px dotted #a0a0a0;
+    box-shadow : none;
+}
+
+.details-combo-list .x-boundlist-itemm
+.tag-field-list .x-boundlist-item {
+    border      : none;
+    font-weight : 300;
+}
+
+.details-combo-list .x-boundlist-item-over,
+.tag-field-list .x-boundlist-item-over {
+    background-color : #0066a6;
+}
+
+.details-combo-list .x-boundlist-selected,
+.tag-field-list .x-boundlist-selected {
+    background-color : #004779;
+}
+
+.x-css-shadow {
+    display : none;
+}
+
+.details-panel h3,
+.details-panel h4 {
+    color : #ffffff;
+}
+
+.details-panel a {
+    color : #5fa2dd;
+}
+
+.details-panel pre[class*="language-"] {
+    border           : none;
+    border-radius    : 0;
+    background-color : transparent;
+    box-shadow       : none;
+    text-shadow      : none;
+}
+
+.details-panel code[class*="language-"], pre[class*="language-"] {
+    text-shadow : none;
+}
+
+.details-panel .token.operator,
+.details-panel .token.entity,
+.details-panel .token.url,
+.details-panel .language-css .token.string,
+.details-panel .style .token.string {
+    background: transparent;
+}
+
+/*endregion*/

@@ -1,0 +1,59 @@
+/*.Integration .search-hit-title,
+.Integration.examples-thumb-wrap {
+    background-color : #90b9d2;
+}
+
+.Advanced .search-hit-title,
+.Advanced.examples-thumb-wrap {
+    background-color : #ff808c;
+}
+
+.Intermediate .search-hit-title,
+.Intermediate.examples-thumb-wrap {
+    background-color : #ffec83;
+}
+
+.Basic .search-hit-title,
+.Basic.examples-thumb-wrap {
+    background-color : #a2df86;
+}
+
+.Integration .examples-thumb-label:before,
+.Integration.x-tree-icon-leaf {
+    color : #90b9d2;
+}
+
+.Advanced .examples-thumb-label:before,
+.Advanced.x-tree-icon-leaf {
+    color : #ff808c;
+}
+
+.Intermediate .examples-thumb-label:before,
+.Intermediate.x-tree-icon-leaf {
+    color : #ffec83;
+}
+
+.Basic .examples-thumb-label:before,
+.Basic.x-tree-icon-leaf {
+    color : #a2df86;
+}
+
+.Integration .examples-thumb-ear {
+    border-left-color   : #9bbdd1;
+    border-bottom-color : #9bbdd1;
+}
+
+.Advanced .examples-thumb-ear {
+    border-left-color   : #ff8c98;
+    border-bottom-color : #ff8c98;
+}
+
+.Intermediate .examples-thumb-ear {
+    border-left-color   : #ffed91;
+    border-bottom-color : #ffed91;
+}
+
+.Basic .examples-thumb-ear {
+    border-left-color   : #aade92;
+    border-bottom-color : #aade92;
+}*/

@@ -1,0 +1,28 @@
+.example-tree .x-grid-body {
+    border:0;
+}
+
+.example-tree .x-grid-cell {
+    cursor: pointer;
+}
+
+.x-menu-item-icon.fa-circle,
+.example-tree .fa-circle {
+    font-size: 6px;
+}
+
+.example-tree .x-grid-item-over .x-tree-node-text {
+    color : #fff;
+}
+
+.example-tree a {
+    color: #fff;
+}
+
+.example-tree a:hover {
+    text-decoration: none;
+}
+
+/*.example-tree a:visited {
+    color: #d0d0d0;
+}*/

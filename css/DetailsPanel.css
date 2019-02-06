@@ -1,0 +1,56 @@
+/* For prism to fit better with our look */
+.details-panel {
+    /*border-left:1px solid #5fa2dd;*/
+}
+
+body:not(.aria, .ks-cmp) .details-panel .x-panel-body {
+     background : #f5f2f0;
+}
+
+.detail-panel-file {
+    white-space: nowrap;
+}
+
+.detail-panel-file:before {
+    margin-right : 5px;
+    color        : inherit;
+    width        : 15px;
+    display      : inline-block;
+    text-align   : center;
+}
+
+.details-panel pre {
+    background : transparent;
+    padding    : 0;
+    margin     : 0;
+    direction  : ltr;
+}
+
+.details-panel ul {
+    padding-left: 20px;
+}
+
+/* To match height of plain panel header with header with tools */
+.match-height-with-tools .x-title {
+    height: 32px;
+}
+
+.detailspanel .x-panel-body-default {
+    border-bottom:0;
+}
+
+.example-details {
+    padding : 10px;
+}
+
+.detailspanel pre {
+    margin : 0;
+}
+
+.details-text {
+    display: none;
+}
+
+.details-panel pre[class*="language-"] {
+    padding : 0;
+}

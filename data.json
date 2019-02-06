@@ -1,0 +1,81 @@
+{
+    "success"      : true,
+
+    "dependencies" : {
+        "rows" : [
+            {"Id" : 1, "From" : 1, "To" : 2 },
+            {"Id" : 2, "From" : 2, "To" : 3 }
+        ]
+    },
+
+    "assignments" : {
+        "rows" : [
+            {
+                "Id"         : 1,
+                "TaskId"     : 1,
+                "ResourceId" : 1,
+                "Units"      : 100
+            },
+            {
+                "Id"         : 2,
+                "TaskId"     : 2,
+                "ResourceId" : 2,
+                "Units"      : 80
+            }
+        ]
+    },
+
+    "resources" : {
+        "rows" : [
+            {"Id" : 1, "Name" : "Dan" },
+            {"Id" : 2, "Name" : "Jenny" },
+            {"Id" : 3, "Name" : "Rick" }
+        ]
+    },
+
+    "tasks" : {
+        "rows" : [
+            {
+                "Id"                : 1,
+                "leaf"              : true,
+                "Name"              : "Investigate2",
+                "PercentDone"       : 50,
+                "StartDate"         : "2017-01-18",
+                "Duration"          : 6,
+                "Segments"          : [
+                    {
+                        "Id"                : 1,
+                        "StartDate"         : "2017-01-18",
+                        "Duration"          : 2
+                    },
+                    {
+                        "Id"                : 2,
+                        "StartDate"         : "2017-01-23",
+                        "Duration"          : 2
+                    },
+                    {
+                        "Id"                : 3,
+                        "StartDate"         : "2017-01-26",
+                        "Duration"          : 3
+                    }
+                ]
+            },
+            {
+                "Id"                : 2,
+                "leaf"              : true,
+                "Name"              : "Assign resources",
+                "PercentDone"       : 50,
+                "StartDate"         : "2017-01-31",
+                "Duration"          : 3
+            },
+            {
+                "Id"                : 3,
+                "leaf"              : true,
+                "Name"              : "Gather documents",
+                "PercentDone"       : 50,
+                "StartDate"         : "2017-02-03",
+                "Duration"          : 5
+            }
+        ]
+    }
+}
